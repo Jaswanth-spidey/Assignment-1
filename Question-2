@@ -1,0 +1,20 @@
+Output will be
+A
+A B 
+A B C
+//program
+
+public class FIrst_class
+{
+	public static void main(String[] args)
+	{		
+		for (int b=65;b<=67;b++)
+		{
+			for (int chr=65;chr<=b;chr++)
+			{
+				System.out.print((char)chr + " ");
+			}
+			System.out.println();
+		}
+	}
+}
